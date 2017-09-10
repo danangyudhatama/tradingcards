@@ -1,12 +1,21 @@
 /* add your CSS here */
+.Cards {
 
-.name{
-	border: dashed 2px;
+	width: 320px;
+	border: solid 2px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.name {
+	border-top: solid 2px;
+	border-bottom: solid 2px;
 	padding: 1em;
 	background-color: grey;
 }
 
-img{
+img {
 
 	width: 300px;
 	border: dashed 2px brown;
@@ -15,23 +24,31 @@ img{
 
 }
 
-.facts{
+.data {
+	width: 250px;
+	border: solid 1px;
+	padding: 20px;
+
+}
+
+.facts {
 	font-style: italic;
+	padding: 25px;
 
 }
 
 ul {
   list-style-type: none;
-  border: dashed 2px;
-  padding: 5px;
+  
+  padding: 20px;
 }
 
-.label{
+.label {
 	font-weight: bold;
 }
 
 
-.description{
-	border: dashed 2px;
+.description {
+	
 	padding: 5% 10%;
 }
